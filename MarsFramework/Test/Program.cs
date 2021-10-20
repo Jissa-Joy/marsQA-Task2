@@ -16,8 +16,6 @@ namespace MarsFramework
                              
          ShareSkill data2 = new ShareSkill();
                 data2.EnterShareSkill();
-
-               
            }
             [Test]
             public void Test2()
