@@ -32,7 +32,7 @@ namespace MarsFramework.Pages
         private IWebElement edit { get; set; }
         //update edit the title
         
-     //   [FindsBy(How = How.XPath, Using = "//*[@id='listing - management - section']/div[2]/div[1]/div[1]/table/tbody/tr[1]/td[8]/div/button[2]/i")]
+     //  wrong xpath [FindsBy(How = How.XPath, Using = "//*[@id='listing - management - section']/div[2]/div[1]/div[1]/table/tbody/tr[1]/td[8]/div/button[2]/i")]
       //  private IWebElement UpdateTitle { get; set; }
 
         //Click on Yes or No
@@ -63,22 +63,7 @@ namespace MarsFramework.Pages
             
             internal void EditShareSkill()
             {
-                //Populate the Excel Sheet
-                //GlobalDefinitions.ExcelLib.PopulateInCollection(Base.ExcelPath, "ManageListing");
-              //  Thread.Sleep(2000);
-                //manageListingsLink.Click();
-                //Thread.Sleep(2000);
-                //Edit the Listing
-                //edit.Click();
-                //UpdateTitle.Clear();
-
-                //UpdateTitle.SendKeys(GlobalDefinitions.ExcelLib.ReadData(2, "Title"));
-                //Delete the Listing
-                //delete.Click();
-
-                //Click on Yes or No
-                //clickActionsButton.SendKeys(GlobalDefinitions.ExcelLib.ReadData(2, "Deleteaction"));
-                //clickActionsButton.Click();
+                // write code here
 
             }
            internal void DeleteShareskill()
