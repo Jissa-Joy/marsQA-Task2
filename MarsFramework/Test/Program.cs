@@ -13,8 +13,8 @@ namespace MarsFramework
             [Test]
             public void Test1()
             {
-                             
-         ShareSkill data2 = new ShareSkill();
+                                             
+               ShareSkill data2 = new ShareSkill();
                 data2.EnterShareSkill();
            }
             [Test]
