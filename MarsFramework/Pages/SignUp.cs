@@ -66,7 +66,7 @@ namespace MarsFramework.Pages
             Password.SendKeys("Password01");
             //Enter Password again to confirm
            // ConfirmPassword.SendKeys(GlobalDefinitions.ExcelLib.ReadData(2, "ConfirmPswd"));
-            ConfirmPassword.SendKeys("Password015" +
+            ConfirmPassword.SendKeys("Password01" +
                 "");
             //Click on Checkbox
             Checkbox.Click();
